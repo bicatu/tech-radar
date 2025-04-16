@@ -1,0 +1,44 @@
+[
+  {
+    "name": "TDD",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Test-Driven Development (TDD) is a software development approach where tests are written before the code. It follows a red-green-refactor cycle: write a failing test, make it pass, then improve the code. TDD helps ensure code quality, maintainability, and provides built-in documentation through tests. Ideal for complex business logic and critical systems."
+  },
+  {
+    "name": "API First",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "API First is a development approach where APIs are designed and documented before implementation begins. It emphasizes defining clear interfaces between systems upfront, enabling parallel development, better integration, and consistent user experience. This approach is particularly valuable for microservices architectures, distributed teams, and applications requiring multiple client implementations."
+  },
+  {
+    "name": "API Collections as Artifact",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "API Collections as Artifact is a practice where API collections (like Postman collections) are treated as first-class artifacts in the development process. This approach emphasizes the importance of documenting and versioning API collections, enabling better collaboration, testing, and integration across teams. It enhances API discoverability and ensures that all stakeholders have access to up-to-date API information."
+  },
+  {
+    "name": "Local Coding Assistants",
+    "ring": "hold",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "Local Coding Assistants refer to AI language models running directly on local machines for code completion and assistance. While they offer privacy benefits, they often provide lower quality results compared to cloud alternatives due to hardware limitations. Running these models locally requires significant computational resources, potentially impacting development performance. Cloud-based solutions currently offer better reliability and quality while being more resource-efficient."
+  },
+  {
+    "name": "Cursor",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Cursor is a tool designed to enhance the code review process by providing AI-driven insights and suggestions, improving overall code quality and team collaboration. Still in early stages, it shows promise in streamlining code reviews and enhancing developer productivity. However, its effectiveness and integration with existing workflows need further evaluation before widespread adoption."
+  },
+  {
+    "name": "DynamoDB",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "DynamoDB is a fully managed NoSQL database service provided by AWS. It offers high availability, scalability, and low-latency performance, making it suitable for applications with variable workloads. With features like automatic scaling, global tables, and built-in security, DynamoDB is ideal for serverless architectures and applications requiring rapid development and deployment."
+  }
+]
